@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoreanHanjaExtractor.Services", "KoreanHanjaExtractor.Services\KoreanHanjaExtractor.Services.csproj", "{4B44BA2D-ADB4-4F1C-A858-93312390594C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoreanHanjaExtractor.Tests", "KoreanHanjaExtractor.Tests\KoreanHanjaExtractor.Tests.csproj", "{C2B6C25D-8911-4F15-B1B5-364418EB625B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AD144829-0F00-4E3E-973E-4DAA57BB2EF8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{569AC33A-8F16-46EB-AEF4-9DF16BC1B88C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Documents\korean-hanja.html = ..\Documents\korean-hanja.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B44BA2D-ADB4-4F1C-A858-93312390594C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B44BA2D-ADB4-4F1C-A858-93312390594C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B44BA2D-ADB4-4F1C-A858-93312390594C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B44BA2D-ADB4-4F1C-A858-93312390594C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B6C25D-8911-4F15-B1B5-364418EB625B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B6C25D-8911-4F15-B1B5-364418EB625B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B6C25D-8911-4F15-B1B5-364418EB625B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B6C25D-8911-4F15-B1B5-364418EB625B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
